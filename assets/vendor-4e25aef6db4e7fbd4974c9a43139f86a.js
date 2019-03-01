@@ -7581,15 +7581,17 @@ i.pushObject(f)
 var h=Ember.$(u).prop("colSpan")||1
 if(h>1)for(var d=1;d<h;d++)i.pushObject("")}}n.pushObject(i)
 for(var p=1;p<o.length;p++){for(var m=[],g=o[p].cells,v=0;v<g.length;v++){for(var y=g[v],b=!1,_=0;_<y.classList.length;_++){if("export-ignore"===y.classList[_]){b=!0
-break}}if(!b){var E=void 0
-E=Ember.$(y).hasClass("export-as-string")?{t:"s",v:y.innerText}:y.innerText,m.pushObject(E)
-var w=Ember.$(y).prop("colSpan")||1
-if(w>1)for(var S=1;S<w;S++)m.pushObject("")}}n.pushObject(m)}var C="excel-report.xlsx",R=Ember.get(t,"fileName")
-R&&(C=R+".xlsx")
-var T="Results",x=Ember.get(t,"sheetName")
-x&&(T=x)
-var A={sheetName:T,fileName:C},k=Ember.get(t,"headerRows")
-k&&Ember.set(A,"headerRows",k),this.get("excel").export(n,A)}})}),define("ember-inflector/index",["exports","ember-inflector/lib/system","ember-inflector/lib/ext/string"],function(e,t){"use strict"
+break}}if(!b){var E=void 0,w=y.innerText,S=Ember.$(y).find("input")
+1===S.length&&(w=S[0].value)
+var C=Ember.$(y).find("textarea")
+1===C.length&&(w=C[0].value),E=Ember.$(y).hasClass("export-as-string")?{t:"s",v:w}:w,m.pushObject(E)
+var R=Ember.$(y).prop("colSpan")||1
+if(R>1)for(var T=1;T<R;T++)m.pushObject("")}}n.pushObject(m)}var x="excel-report.xlsx",A=Ember.get(t,"fileName")
+A&&(x=A+".xlsx")
+var k="Results",O=Ember.get(t,"sheetName")
+O&&(k=O)
+var B={sheetName:k,fileName:x},D=Ember.get(t,"headerRows")
+D&&Ember.set(B,"headerRows",D),this.get("excel").export(n,B)}})}),define("ember-inflector/index",["exports","ember-inflector/lib/system","ember-inflector/lib/ext/string"],function(e,t){"use strict"
 Object.defineProperty(e,"__esModule",{value:!0}),e.defaultRules=e.singularize=e.pluralize=void 0,t.Inflector.defaultRules=t.defaultRules,Object.defineProperty(Ember,"Inflector",{get:function(){return Ember.deprecate("Ember.Inflector is deprecated. Please explicitly: import Inflector from 'ember-inflector';",!1,{id:"ember-inflector.globals",until:"3.0.0"}),t.Inflector}}),Object.defineProperty(Ember.String,"singularize",{get:function(){return Ember.deprecate("Ember.String.singularize() is deprecated. Please explicitly: import { singularize } from 'ember-inflector';",!1,{id:"ember-inflector.globals",until:"3.0.0"}),t.singularize}}),Object.defineProperty(Ember.String,"pluralize",{get:function(){return Ember.deprecate("Ember.String.pluralize() is deprecated. Please explicitly: import { pluralize } from 'ember-inflector';",!1,{id:"ember-inflector.globals",until:"3.0.0"}),t.pluralize}}),e.default=t.Inflector,e.pluralize=t.pluralize,e.singularize=t.singularize,e.defaultRules=t.defaultRules}),define("ember-inflector/lib/ext/string",["ember-inflector/lib/system/string"],function(e){"use strict";(!0===Ember.ENV.EXTEND_PROTOTYPES||Ember.ENV.EXTEND_PROTOTYPES.String)&&(Object.defineProperty(String.prototype,"pluralize",{get:function(){return Ember.deprecate("String.prototype.pluralize() is deprecated. Please explicitly: import { pluralize } from 'ember-inflector';",!1,{id:"ember-inflector.globals",until:"3.0.0"}),function(){return(0,e.pluralize)(this)}}}),Object.defineProperty(String.prototype,"singularize",{get:function(){return Ember.deprecate("String.prototype.singularize() is deprecated. Please explicitly: import { singularize } from 'ember-inflector';",!1,{id:"ember-inflector.globals",until:"3.0.0"}),function(){return(0,e.singularize)(this)}}}))}),define("ember-inflector/lib/helpers/pluralize",["exports","ember-inflector","ember-inflector/lib/utils/make-helper"],function(e,t,r){"use strict"
 function n(e){if(Array.isArray(e)){for(var t=0,r=Array(e.length);t<e.length;t++)r[t]=e[t]
 return r}return Array.from(e)}Object.defineProperty(e,"__esModule",{value:!0}),e.default=(0,r.default)(function(e,r){var i=new(Function.prototype.bind.apply(Array,[null].concat(n(e))))
