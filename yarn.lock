@@ -2705,10 +2705,10 @@ ember-export-application-global@2.0.0:
   dependencies:
     ember-cli-babel "^6.0.0-beta.7"
 
-ember-html-table-to-excel@0.1.2:
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/ember-html-table-to-excel/-/ember-html-table-to-excel-0.1.2.tgz#af3e1c362337461ccc8f433c664b4f54bee5536d"
-  integrity sha512-jZZqQtYFyFqIDGiMY/KY2czBjkY6r5JV2GmJjKOTBPFjfzAjzULubifaHfAw/gStBmkWThGJYSCQtvkQPe5VUg==
+ember-html-table-to-excel@0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/ember-html-table-to-excel/-/ember-html-table-to-excel-0.2.0.tgz#6dc2b061cbabd6a14de5f3e438325577e5156099"
+  integrity sha512-dSfi9dJyAnMVXJFCvZSpgwvDTG0NW1Ag18CwBNv2XISofPGzhBU+KRetpA9LgLvoaNE0jzQValHG80UBjC/A0w==
   dependencies:
     ember-cli-babel "6.16.0"
     ember-cli-data-export-with-style "3.1.2"
