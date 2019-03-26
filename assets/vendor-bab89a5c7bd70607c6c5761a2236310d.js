@@ -7621,7 +7621,7 @@ if(i.includes(s)&&(c.s={font:{bold:!0},alignment:{horizontal:"center"}}),"number
 else if("boolean"==typeof c.v)c.t="b"
 else if("object"===n(c.v)&&c.v._d instanceof Date)c.t="n",c.z=XLSX.SSF._table[14],c.v=(r=c.v._d,(Date.parse(r)-new Date(Date.UTC(1899,11,30)))/864e5)
 else if(c.v){var h=c.v
-if(h=h.trim(),!(t=h)||10!==t.length||isNaN(t[0])||isNaN(t[1])||isNaN(t[3])||isNaN(t[4])||isNaN(t[6])||isNaN(t[7])||isNaN(t[8])||isNaN(t[9])||!("."===t[2]&&"."===t[5]||"/"===t[2]&&"/"===t[5])){var d=h,p="$"===d[0]
+if(h=(h=""+h).trim(),!(t=h)||10!==t.length||isNaN(t[0])||isNaN(t[1])||isNaN(t[3])||isNaN(t[4])||isNaN(t[6])||isNaN(t[7])||isNaN(t[8])||isNaN(t[9])||!("."===t[2]&&"."===t[5]||"/"===t[2]&&"/"===t[5])){var d=h,p="$"===d[0]
 p&&(d=(d=(d=(d=d.substr(1)).replace(/\./g,"___")).replace(/\,/g,".")).replace(/___/g,","))
 var m="£"===d[0]
 m&&(d=(d=(d=(d=d.substr(1)).replace(/\./g,"___")).replace(/\,/g,".")).replace(/___/g,","))

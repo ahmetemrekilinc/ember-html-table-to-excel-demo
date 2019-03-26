@@ -2934,10 +2934,10 @@ ember-cli-broccoli-sane-watcher@^3.0.0:
     rsvp "^3.0.18"
     sane "^4.0.0"
 
-ember-cli-data-export-with-style@3.2.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/ember-cli-data-export-with-style/-/ember-cli-data-export-with-style-3.2.0.tgz#53a2c6c81f64eafcb401a9e8f18534dc5037fffe"
-  integrity sha512-aHr7fj48BWn2doMKoEaG6RFtkjUlEgeOz0y8MFh1MfvbAhexr7XLhqiGC/B4c+Yg7SYfzxdz6cEio5cEjLSg6w==
+ember-cli-data-export-with-style@3.2.1:
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/ember-cli-data-export-with-style/-/ember-cli-data-export-with-style-3.2.1.tgz#c07249147b7ba187d666d977a8124d19a2294a3d"
+  integrity sha512-iAx1aLCXFBauN76o2r2Ut8B3PkGDJIGZ8pwl3l9NohOEwOjfw+z9pOrOC2HxtFMZphTrmK+ots4UXt4NKpzI1w==
   dependencies:
     ember-cli-babel "7.5.0"
     ember-cli-htmlbars "3.0.0"
@@ -3224,13 +3224,13 @@ ember-export-application-global@2.0.0:
   dependencies:
     ember-cli-babel "^6.0.0-beta.7"
 
-ember-html-table-to-excel@1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/ember-html-table-to-excel/-/ember-html-table-to-excel-1.0.0.tgz#06305d4daef6060c3fedac8b1301adacb39ff0d1"
-  integrity sha512-j+22LysC3IUyqxtm2ZLF0N/CRFXL5T+QcZJd31ahF6mMgV/CLfNg/EphU6ipsx2BO0/RNtaTN5c4a9mu2Czu6Q==
+ember-html-table-to-excel@1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/ember-html-table-to-excel/-/ember-html-table-to-excel-1.0.1.tgz#252f64217fe783ccfa8b7c834d1a861961fe16e9"
+  integrity sha512-wvfX0AcUlo7nysSWpbzBCFFLHRnunyugOz3PALWGJhk+ZLOjCkGib2j/FVjBJaCLJtCPPMQPgooFJZfqsvb6jQ==
   dependencies:
     ember-cli-babel "7.5.0"
-    ember-cli-data-export-with-style "3.2.0"
+    ember-cli-data-export-with-style "3.2.1"
     ember-cli-htmlbars "3.0.0"
 
 ember-load-initializers@2.0.0:
