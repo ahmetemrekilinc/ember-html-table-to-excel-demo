@@ -3431,10 +3431,10 @@ ember-cli-build-config-editor@0.5.0:
   dependencies:
     recast "^0.12.0"
 
-ember-cli-data-export-with-style@3.3.0:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/ember-cli-data-export-with-style/-/ember-cli-data-export-with-style-3.3.0.tgz#9b120c20ebc9d6ce95af6694f3224385b6e03d07"
-  integrity sha512-PgP1ma4Eb18prikYTVSNuLlbsJlahf0KWfTFrlfb1C4HKWEuPLobTfosfM+YjdRJc9dggeD6Kh0DW8sgNcKiUA==
+ember-cli-data-export-with-style@4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/ember-cli-data-export-with-style/-/ember-cli-data-export-with-style-4.0.1.tgz#c2a0be0f1fe0212e8601af1c59732c8eda2c4096"
+  integrity sha512-LA/LdstuoogFW/JiM+nFV5qPfwOdPNrFeWeoe8UcF+Wykok9nbqSzNgooJmsthJArxFdHz/MuL6sOEsUDvlpMQ==
   dependencies:
     ember-cli-babel "7.7.3"
     ember-cli-htmlbars "3.0.1"
@@ -3770,13 +3770,13 @@ ember-export-application-global@2.0.0:
   dependencies:
     ember-cli-babel "^6.0.0-beta.7"
 
-ember-html-table-to-excel@1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/ember-html-table-to-excel/-/ember-html-table-to-excel-1.2.0.tgz#a1cabdc877fa6d1314b205d6c17b75375fe2f73c"
-  integrity sha512-6+oqQOl/uraqmxf4hG5e4qqrK/ueAm3ZujU6BVXFotFyyWHooMyaF0oNSKSXdHE/BT6l4uiyzdf3Ks32MaaWyA==
+ember-html-table-to-excel@2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/ember-html-table-to-excel/-/ember-html-table-to-excel-2.0.0.tgz#c2d934f345d6564ad3caf0105ea5cac2c032460d"
+  integrity sha512-5gIyylZz2mGtU3gK9Fw49jF/bTgIuHBhc1QS7dMmCRK/DQ7jRh2MMB8GLOn6sb4uNMIRkOdbo4Dfvv8ZmdzJ+g==
   dependencies:
     ember-cli-babel "7.7.3"
-    ember-cli-data-export-with-style "3.3.0"
+    ember-cli-data-export-with-style "4.0.1"
     ember-cli-htmlbars "3.0.1"
 
 ember-in-element-polyfill@^0.2.0:
