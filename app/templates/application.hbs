@@ -1,10 +1,14 @@
-<a href="https://github.com/ahmetemrekilinc/ember-html-table-to-excel" target="_blank">Github</a>
-<a href="https://www.npmjs.com/package/ember-html-table-to-excel" target="_blank">Npmjs</a>
-<a href="https://github.com/ahmetemrekilinc/ember-cli-data-export" target="_blank">ember-cli-data-export-with-style</a>
+<div class="ember-view">
+  <ul class="app-tab">
+    <li class="app-tab-item"><a href="https://github.com/ahmetemrekilinc/ember-html-table-to-excel" target="_blank" rel="noopener noreferrer">Github</a></li>
+    <li class="app-tab-item"><a href="https://www.npmjs.com/package/ember-html-table-to-excel" target="_blank" rel="noopener noreferrer">Npmjs</a></li>
+    <li class="app-tab-item"><a href="https://github.com/ahmetemrekilinc/ember-cli-data-export" target="_blank" rel="noopener noreferrer">ember-cli-data-export-with-style</a></li>
+  </ul>
 
-<h1>ember-html-table-to-excel</h1>
-{{#generic-demo-page name='Example Usage of Ember Html Table to Excel' files='showcase.hbs,showcase.js'}}
-  {{component 'showcase'}}
-{{/generic-demo-page}}
+  <h1>ember-html-table-to-excel</h1>
+  <GenericDemoPage @name='Example Usage of Ember Html Table to Excel' @files='showcase.hbs,showcase.js'>
+    <Showcase/>
+  </GenericDemoPage>
 
-{{outlet}}
+  {{outlet}}
+</div>

@@ -1,7 +1,7 @@
 ---
 language: node_js
 node_js:
-  - "8"
+  - "10"
 
 sudo: false
 dist: trusty
@@ -16,6 +16,10 @@ env:
   global:
     # See https://git.io/vdao3 for details.
     - JOBS=1
+
+branches:
+  only:
+    - master
 
 before_install:
   - curl -o- -L https://yarnpkg.com/install.sh | bash
