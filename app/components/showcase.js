@@ -1,10 +1,11 @@
 //BEGIN-SNIPPET showcase
-import Component from '@ember/component';
+import Component from '@glimmer/component';
 
-export default Component.extend({
+export default class Showcase extends Component {
 
-  init(){
-    this._super(...arguments);
+  constructor(){
+    super(...arguments);
+
     let data = [];
     data.pushObject(
       {
@@ -38,8 +39,8 @@ export default Component.extend({
         textareaProp: "text area data 2"
       }
     );
-    this.set("data", data);
+    this.data = data;
   }
 
-});
+}
 //END-SNIPPET
