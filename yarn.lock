@@ -4244,10 +4244,10 @@ ember-cli-build-config-editor@0.5.0:
   dependencies:
     recast "^0.12.0"
 
-ember-cli-data-export-with-style@5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/ember-cli-data-export-with-style/-/ember-cli-data-export-with-style-5.0.0.tgz#e8e5afe5abfb9798418aaae8aa8a8caddce51029"
-  integrity sha512-1jgsnlvqoNsLKAkqvrPQoZrZE5oP21+A5P+H0sOEWrArpXX6RpzSqGIfZMOs0Zo7/q4fUgMTZMqy5BSyRIJJgg==
+ember-cli-data-export-with-style@5.0.1:
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/ember-cli-data-export-with-style/-/ember-cli-data-export-with-style-5.0.1.tgz#7c201f057df62bc3d81c86a3cf1ea0fca6c0d3db"
+  integrity sha512-iItpEcEqbzSkc1yAqAdGYHYkQaFyYociLm2sybJphm/AqGe9f7ibP/7pZGbif7tyYVTK6RnxX3nx8KYi3QEFOw==
   dependencies:
     ember-cli-babel "7.13.0"
     ember-cli-htmlbars "4.2.0"
@@ -4668,14 +4668,14 @@ ember-focus-trap@^0.3.2:
     ember-modifier-manager-polyfill "^1.1.0"
     focus-trap "^5.0.1"
 
-ember-html-table-to-excel@3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/ember-html-table-to-excel/-/ember-html-table-to-excel-3.1.0.tgz#0235450be5c1af85964163d4cb0b084028ebb240"
-  integrity sha512-AGF/RYmPt1NxMIK5wdoG03fQo1+jlvdvBIfUHMVxdL8F+mVEPs6SvwQ3xoVCiaUd7ego/iVVVKCMjXEJxwsnNw==
+ember-html-table-to-excel@3.1.1:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/ember-html-table-to-excel/-/ember-html-table-to-excel-3.1.1.tgz#e698552ac0d4b12b5f0aca9555ec82a723b8e96b"
+  integrity sha512-YEcRxCS0xvANTXWRI02pw0VM6lpzgvZOswo4dWoAO4Hk7gZosZ2TObA1tYHSLC+p0XZN1i4iOITg8GSDurhJ7Q==
   dependencies:
     "@ember/jquery" "1.1.0"
     ember-cli-babel "7.13.0"
-    ember-cli-data-export-with-style "5.0.0"
+    ember-cli-data-export-with-style "5.0.1"
     ember-cli-htmlbars "4.2.1"
 
 ember-in-element-polyfill@^0.2.0:
